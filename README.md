@@ -1,16 +1,18 @@
-# React + Vite
+# DevMovies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A movie and TV series browser built with React and Vite, using the TMDB API.
 
-Currently, two official plugins are available:
+## Features
+- Lists of popular movies and series
+- Details page for each movie and series
+- React Router for navigation
+- API requests organized in a services file
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech
+React, Vite, React Router, JavaScript, CSS
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run it locally
+1. Clone the repo
+2. Run `npm install`
+3. Create a `.env` file with `VITE_TMDB_KEY=your_tmdb_key`
+4. Run `npm run dev`
