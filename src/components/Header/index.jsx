@@ -1,13 +1,17 @@
+import { Link } from 'react-router-dom'
 import Logo from '../../assets/logo.png'
 import Navbar from '../Navbar'
 import './style.css'
+
 function Header() {
   return (
-    <div>
-      <img src={Logo}  className="logo" alt="logo-dev-movies" />
+    <header>
+      <Link to="/">
+        <img src={Logo} className="logo" alt="logo-dev-movies" />
+      </Link>
       <Navbar />
-    </div>
+    </header>
   )
 }
 
-export default Header;
+export default Header

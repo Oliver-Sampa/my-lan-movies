@@ -1,14 +1,13 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
     <nav>
-      <Link to="/">Home</Link>
-      <Link to="/movies">Movies</Link>
-      <Link to="/series">Series</Link>
+      <NavLink to="/" end>Home</NavLink>
+      <NavLink to="/movies">Movies</NavLink>
+      <NavLink to="/series">Series</NavLink>
     </nav>
-  );
+  )
 }
 
-export default Navbar;
-
+export default Navbar

@@ -20,6 +20,10 @@ export function getMovieDetails(id) {
   return request(`/movie/${id}`);
 }
 
+export function getMovieVideos(id) {
+  return request(`/movie/${id}/videos`);
+}
+
 export function getPopularSeries() {
   return request('/tv/popular');
 }

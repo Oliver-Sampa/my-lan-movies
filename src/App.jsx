@@ -1,11 +1,10 @@
-import SeriesDetails from './containers/SeriesDetails';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './containers/Home';
 import Series from './containers/Series';
 import Movies from './containers/Movies';
 import MovieDetails from './containers/MovieDetails';
-
+import SeriesDetails from './containers/SeriesDetails';
 
 
 function App() {

@@ -2,3 +2,11 @@
   height: 80px;
   width: auto;
 }
+
+header a {
+  text-decoration: none;
+}
+
+nav a.active {
+  border-bottom: 2px solid #e50914;
+}

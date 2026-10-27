@@ -1,0 +1,102 @@
+.home {
+  background: #0d0d0f;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.hero {
+  height: 70vh;
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-overlay {
+  width: 100%;
+  padding: 120px 48px 48px;
+  background: linear-gradient(to top, #0d0d0f 5%, rgba(13, 13, 15, 0) 100%);
+}
+
+.trailer {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.hero-overlay p {
+  max-width: 600px;
+  line-height: 1.5;
+  color: #ddd;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #e50914;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.hero-button:hover {
+  background: #b20710;
+}
+
+.popular {
+  padding: 24px 48px 48px;
+}
+
+.popular h2 {
+  margin-bottom: 16px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.card span {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .hero-overlay { padding: 80px 20px 24px; }
+  .hero-overlay h1 { font-size: 2rem; }
+  .popular { padding: 24px 20px; }
+}
