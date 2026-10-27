@@ -31,3 +31,7 @@ export function getPopularSeries() {
 export function getSeriesDetails(id) {
   return request(`/tv/${id}`);
 }
+
+export function getSeriesVideos(id) {
+  return request(`/tv/${id}/videos`);
+}
