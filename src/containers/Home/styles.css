@@ -100,3 +100,19 @@
   .hero-overlay h1 { font-size: 2rem; }
   .popular { padding: 24px 20px; }
 }
+
+@media (max-width: 700px) {
+  .details {
+    flex-direction: column;
+  }
+
+  .details img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .details-info {
+    min-width: 0;
+  }
+}
