@@ -1,6 +1,7 @@
-.logo {
-  height: 80px;
-  width: auto;
+.logo,
+header img {
+  max-width: 100%;
+  height: auto;
 }
 
 header a {
